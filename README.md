@@ -37,19 +37,26 @@ filetype: This operator allows you to search for files of a specific type. For e
 Following searches for pdf file in the domain yahoo.com
 
 
+![Screenshot 2025-03-16 150510](https://github.com/user-attachments/assets/273aef04-83fb-48dd-af18-9302e8a393e2)
 
 intext: This operator allows you to search for pages that contain specific text within the body of the page. For example, "intext:password" would search for pages that contain the word "password" within the body of the page.
 
+![Screenshot 2025-03-16 150638](https://github.com/user-attachments/assets/9bb1aea6-20c1-4873-b06d-0b1816a93a8e)
 
 inurl: This operator allows you to search for pages that contain specific text within the URL. For example, "inurl:admin" would search for pages that contain the word "admin" within the URL.
+![Screenshot 2025-03-16 150745](https://github.com/user-attachments/assets/06f2b86d-598b-4d99-93ba-b37705309bfc)
 
 intitle: This operator allows you to search for pages that contain specific text within the title tag. For example, "intitle:index of" would search for pages that contain "index of" within the title tag.
+![Screenshot 2025-03-16 150839](https://github.com/user-attachments/assets/9f0b4e6e-74fd-4a95-b12f-019911a02270)
 
 link: This operator allows you to search for pages that link to a specific URL. For example, "link:example.com" would search for pages that link to the example.com domain.
+![Screenshot 2025-03-16 150953](https://github.com/user-attachments/assets/7b203887-b7d1-4c0d-a935-94a1bcd9c719)
 
 cache: This operator allows you to view the cached version of a page. For example, "cache:example.com" would show the cached version of the example.com website.
 
- 
+ ![Screenshot 2025-03-16 151126](https://github.com/user-attachments/assets/6409822a-f174-4b05-b1b7-7c61a6492d5f)
+![Screenshot 2025-03-16 151232](https://github.com/user-attachments/assets/62021925-0302-48b6-bffc-d63e36e0b753)
+
 #DNS Enumeration
 
 
@@ -61,7 +68,9 @@ Perform common SRV Record Enumeration
 Top level domain expansion
 ## OUTPUT:
 
+![Screenshot 2025-03-16 143419](https://github.com/user-attachments/assets/e3e8c6df-c4bf-4bd8-a0c8-d9cdda5929ac)
 
+![Screenshot 2025-03-16 143603](https://github.com/user-attachments/assets/494a968f-4989-436c-aad4-0cb3c3391887)
 
 
 
@@ -81,15 +90,18 @@ Perform reverse lookups on netranges (C class or/and whois netranges) (threaded)
 Write to domain_ips.txt file ip-blocks.
 This program is useful for pentesters, ethical hackers and forensics experts. It also can be used for security tests.
 
-
+![Screenshot 2025-03-16 143945](https://github.com/user-attachments/assets/8229d4e1-199a-4dd3-8767-d1bdfed82a1d)
 ##smtp-user-enum
 Username guessing tool primarily for use against the default Solaris SMTP service. Can use either EXPN, VRFY or RCPT TO.
+
+![Screenshot 2025-03-16 145713](https://github.com/user-attachments/assets/d79f5712-4d31-4636-8914-65a2c4b601d6)
 
 
 In metasploit list all the usernames using head /etc/passwd or cat /etc/passwd:
 
 select any username in the first column of the above file and check the same
 
+![Screenshot 2025-03-16 145724](https://github.com/user-attachments/assets/561f93d0-b1de-4d68-9e07-76420c5295a3)
 
 #Telnet for smtp enumeration
 Telnet allows to connect to remote host based on the port no. For smtp port no is 25
@@ -107,6 +119,8 @@ The smtp-enum-users.nse script attempts to enumerate the users on a SMTP server 
 
 ## OUTPUT:
 
+![Screenshot 2025-03-16 145807](https://github.com/user-attachments/assets/5cf52b48-6729-4cd8-84a3-c75aa507df99)
+![Screenshot 2025-03-16 150049](https://github.com/user-attachments/assets/20f89b41-0e9f-4c18-a59c-974f309de051)
 
 ## RESULT:
 The Google hacking keywords and enumeration tools were identified and executed successfully
